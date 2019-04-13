@@ -7,6 +7,9 @@
   </div>
   <script type="text/javascript" src="/js/jquery.min.js"></script>
   <script type="text/javascript" src="/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="/js/bubble.js"></script>
+  <script type="text/javascript" src="/js/grumble.js"></script>
+  <script type="text/javascript" src="/js/crumble.js"></script>
   <script type="text/javascript" src="/js/app.js"></script>
 
 </body>

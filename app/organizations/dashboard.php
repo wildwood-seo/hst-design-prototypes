@@ -61,7 +61,7 @@
           <div class="card-body">
             <ul class="list-group">
               <li class="list-group-item">
-                <i class="fa fa-circle text-info"></i>
+                <i class="fa fa-circle text-info tour-one"></i>
                 <a href="/app/users/applicant.php">Kelli Shaver</a><br>
                 <small>Created: Apr. 12, 2019 - Completed 3 of 5 Checklists</small>
               </li>
@@ -92,5 +92,11 @@
 
   </div>
 </div>
+
+<ol id="tour" style="display: none;">
+  <li data-target=".tour-one" data-angle="130">
+    Status icons indicate rough progress through all checklists at logical breakpoints
+  </li>
+</ol>
 
 <?php require $_SERVER['DOCUMENT_ROOT']."/includes/footer.php"; ?>

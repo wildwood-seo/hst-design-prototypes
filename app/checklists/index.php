@@ -10,7 +10,7 @@
         <h3>Checklists</h3>
       </div>
       <div class="col-md-6">
-        <a class="btn btn-success float-right"><i class="fa fa-plus"></i> New Checklist</a>
+        <a class="btn btn-success float-right tour-one"><i class="fa fa-plus"></i> New Checklist</a>
       </div>
     </div>
     <br><br>
@@ -68,5 +68,12 @@
     </div>
   </div>
 </div>
+
+
+<ol id="tour" style="display: none;">
+  <li data-target=".tour-one" data-angle="130">
+    Only visible to system admins managing the organization
+  </li>
+</ol>
 
 <?php require $_SERVER['DOCUMENT_ROOT']."/includes/footer.php"; ?>

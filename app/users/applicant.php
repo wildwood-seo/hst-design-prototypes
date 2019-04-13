@@ -34,7 +34,7 @@
     <br>
 
     <div class="row">
-      <div class="col-md-2">
+      <div class="col-md-2 tour-one">
         <a href="" class="btn btn-link btn-block">
           <i class="fas fa-file-archive fa-2x"></i><br>
           Download All Files
@@ -64,13 +64,13 @@
       </div>
       <div class="col-md-8">
         <h5>Technology Training</h5>
-        <div class="progress">
+        <div class="progress tour-two">
           <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
         Complete!
       </div>
       <div class="col-md-2 text-center">
-        <i class="fas fa-trophy fa-3x text-warning"></i>
+        <i class="fas fa-trophy fa-3x text-warning tour-three"></i>
       </div>
     </div>
     <br><hr><br>
@@ -118,5 +118,19 @@
 
   </div>
 </div>
+
+
+<ol id="tour" style="display: none;">
+  <li data-target=".tour-one" data-angle="130">
+    View / Download links may not be visible for all checklists, depending on user type.
+  </li>
+  <li data-target=".tour-two" data-angle="130">
+    Progress bars are color-coded and show what percentage of the checklist is complete.
+  </li>
+  <li data-target=".tour-three" data-angle="130">
+    Completed checklists earns a gold trophy.
+  </li>
+</ol>
+
 
 <?php require $_SERVER['DOCUMENT_ROOT']."/includes/footer.php"; ?>

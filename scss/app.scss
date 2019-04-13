@@ -79,3 +79,64 @@ hr {
     }
   }
 }
+
+.template-wrapper {
+  position:relative;
+  background:#eee;
+  height:80vh;
+  .question-list {
+    width:12em;
+    border:3px solid #eee;
+    background:#fff;    
+    position:absolute;
+    padding:0.5em;
+    top:0;
+    left:0;
+    height:100%;
+    overflow-y:scroll;
+    z-index:200;
+  }
+  .questions {
+    width:100%;
+    position:absolute;
+    padding:1em 1em 1em 13em;
+    top:0;
+    left:0;
+    height:100%;
+    overflow-y:scroll;
+
+    .question {
+      background:#fff;
+      padding:0.5em;
+      margin-bottom:0.5em;
+      position:relative;
+      a.delete {
+        position:absolute;
+        top:0;
+        right:0;
+        width:20px;
+        height:20px;
+        text-align:center;
+        line-height:20px;
+        opacity:0.4;
+        &:hover {
+          opacity:1;
+        }
+      }
+    }
+  }
+
+  .mini-questions {
+    margin:0;
+    padding:0;
+
+    li {
+      margin:0 0 1em 0;
+      list-style:none;
+      .btn-light {
+        background:#eee;
+      }
+    }
+  }
+}
+

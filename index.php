@@ -108,7 +108,7 @@
         <a href="app/users/applicant-a.php" class="btn btn-sm btn-primary float-right">Show</a>
       </li>
       <li class="list-group-item">
-        <i class="fas fa-times"></i>&nbsp;&nbsp;&nbsp; New / Edit Applicant
+        <i class="fas fa-check"></i>&nbsp;&nbsp;&nbsp; New Applicant
         <a href="app/users/new-applicant.php" class="btn btn-sm btn-primary float-right">Show</a>
       </li>
 
@@ -135,7 +135,7 @@
       </li>
       <li class="list-group-item">
         <i class="fas fa-times"></i>&nbsp;&nbsp;&nbsp; Edit Checklist
-        <a href="app/checklist-templates/edit.php" class="btn btn-sm btn-primary float-right">Show</a>
+        <a href="app/checklists/edit.php" class="btn btn-sm btn-primary float-right">Show</a>
       </li>
     </ul>
 

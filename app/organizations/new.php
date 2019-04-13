@@ -7,7 +7,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <h3>New Organization</h3>
+        <h3 class="tour-one">New Organization</h3>
       </div>
     </div>
     <br><br>
@@ -107,5 +107,11 @@
 
   </div>
 </div>
+
+<ol id="tour" style="display: none;">
+  <li data-target=".tour-one" data-angle="130">
+    Headings and button text change for new record vs. editing existing record
+  </li>
+</ol>
 
 <?php require $_SERVER['DOCUMENT_ROOT']."/includes/footer.php"; ?>
