@@ -100,9 +100,5 @@
         <?php include "./includes/_forms.php"; ?>
       </div>
     </div>
-    <br><br>
-    <hr>
-    <br><br>
-    <a href="index.php" class="btn btn-primary">Back</a>
   </div>
 <?php require "./includes/footer.php"; ?>

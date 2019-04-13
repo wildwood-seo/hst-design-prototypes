@@ -111,4 +111,5 @@
     </ul>
 
   </div>
+<?php $hide_pw = true; ?>
 <?php require "./includes/footer.php"; ?>
