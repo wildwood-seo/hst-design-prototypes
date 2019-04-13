@@ -4,11 +4,21 @@
 body {
   background: #eee; }
 
+.list-heading {
+  padding: 4px;
+  margin-bottom: 0;
+  margin-top: 1em; }
+
 #main {
   background: #fff;
   border-top: 2px solid #26ADE4;
   margin-top: 2em;
   padding-top: 2em;
+  padding-bottom: 2em; }
+
+#app {
+  background: #fff;
+  padding-top: 6em;
   padding-bottom: 2em; }
 
 hr {
@@ -18,5 +28,33 @@ hr {
   margin-top: 4em; }
   #login img {
     margin-bottom: 1em; }
+
+.navbar-brand {
+  margin-right: 2em; }
+
+.avatar-sm {
+  background: #fff;
+  display: inline;
+  margin-right: 0.5em;
+  background: #fff;
+  color: #aaa;
+  padding: 2px; }
+.avatar-profile {
+  max-width: 90%; }
+
+.dashboard .card {
+  margin-bottom: 1em; }
+.dashboard .big-number {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 100;
+  margin: 0; }
+.dashboard .list-group-item {
+  padding-left: 3em;
+  position: relative; }
+  .dashboard .list-group-item i {
+    position: absolute;
+    top: 1em;
+    left: 1em; }
 
 /*# sourceMappingURL=app.css.map */

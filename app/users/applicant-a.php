@@ -1,7 +1,7 @@
 <?php require $_SERVER['DOCUMENT_ROOT']."/includes/header.php"; ?>
 
-<?php $tab = 2; ?>
-<?php require $_SERVER['DOCUMENT_ROOT']."/includes/app-navbar.php"; ?>
+<?php $tab = 3; ?>
+<?php require $_SERVER['DOCUMENT_ROOT']."/includes/applicant-navbar.php"; ?>
 <div id="app">
   <div class="container">
     <div class="row">
@@ -10,7 +10,7 @@
       </div>
       <div class="col-md-6">
         <span class="float-right">
-          <a href="new-user.php" class="btn btn-info"><i class="fas fa-pencil-alt"></i> Edit</a>
+          <a href="new-user.php" class="btn btn-info"><i class="fas fa-pencil-alt"></i>&nbsp;&nbsp; Edit Profile</a>
         </span>
       </div>
     </div>
@@ -35,10 +35,6 @@
 
     <div class="row">
       <div class="col-md-2">
-        <a href="" class="btn btn-link btn-block">
-          <i class="fas fa-file-archive fa-2x"></i><br>
-          Download All Files
-        </a>
         <a href="/app/checklists/show.php" class="btn btn-outline-info btn-block">View Checklist</a>
       </div>
       <div class="col-md-8">
@@ -56,10 +52,6 @@
 
     <div class="row">
       <div class="col-md-2">
-        <a href="" class="btn btn-link btn-block">
-          <i class="fas fa-file-archive fa-2x"></i><br>
-          Download All Files
-        </a>
         <a href="/app/checklists/show.php" class="btn btn-outline-info btn-block">View Checklist</a>
       </div>
       <div class="col-md-8">
@@ -77,11 +69,7 @@
 
     <div class="row">
       <div class="col-md-2">
-        <a href="" class="btn btn-link btn-block">
-          <i class="fas fa-file-archive fa-2x"></i><br>
-          Download All Files
-        </a>
-        <a href="/app/checklists/show.php" class="btn btn-outline-info btn-block">View Checklist</a>
+        <a href="/app/checklists/show.php" class="btn btn-info btn-block">Continue</a>
       </div>
       <div class="col-md-8">
         <h5>Background Information</h5>
@@ -98,11 +86,7 @@
 
     <div class="row">
       <div class="col-md-2">
-        <a href="" class="btn btn-link btn-block">
-          <i class="fas fa-file-archive fa-2x"></i><br>
-          Download All Files
-        </a>
-        <a href="/app/checklists/show.php" class="btn btn-outline-info btn-block">View Checklist</a>
+        <a href="/app/checklists/show.php" class="btn btn-info btn-block">Continue</a>
       </div>
       <div class="col-md-8">
         <h5>Important Documents</h5>
