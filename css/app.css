@@ -57,52 +57,28 @@ hr {
     top: 1em;
     left: 1em; }
 
-.template-wrapper {
-  position: relative;
-  background: #eee;
-  height: 80vh; }
-  .template-wrapper .question-list {
-    width: 12em;
-    border: 3px solid #eee;
-    background: #fff;
+.questions .question {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+  position: relative; }
+  .questions .question.public {
+    margin-bottom: 1.5em;
+    padding: 1em; }
+  .questions .question a.delete {
     position: absolute;
-    padding: 0.5em;
     top: 0;
-    left: 0;
-    height: 100%;
-    overflow-y: scroll;
-    z-index: 200; }
-  .template-wrapper .questions {
-    width: 100%;
-    position: absolute;
-    padding: 1em 1em 1em 13em;
-    top: 0;
-    left: 0;
-    height: 100%;
-    overflow-y: scroll; }
-    .template-wrapper .questions .question {
-      background: #fff;
-      padding: 0.5em;
-      margin-bottom: 0.5em;
-      position: relative; }
-      .template-wrapper .questions .question a.delete {
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 20px;
-        height: 20px;
-        text-align: center;
-        line-height: 20px;
-        opacity: 0.4; }
-        .template-wrapper .questions .question a.delete:hover {
-          opacity: 1; }
-  .template-wrapper .mini-questions {
-    margin: 0;
-    padding: 0; }
-    .template-wrapper .mini-questions li {
-      margin: 0 0 1em 0;
-      list-style: none; }
-      .template-wrapper .mini-questions li .btn-light {
-        background: #eee; }
+    right: 0;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    opacity: 0.4; }
+    .questions .question a.delete:hover {
+      opacity: 1; }
+
+.hidden {
+  display: none; }
 
 /*# sourceMappingURL=app.css.map */

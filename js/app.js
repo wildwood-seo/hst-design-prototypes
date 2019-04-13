@@ -1,8 +1,3 @@
-function add_question_to_mini_list() {
-  var question_no = $('.mini-questions').find('li').length + 1;
-  $('.mini-questions').append('<li><button class="btn btn-outline btn-light btn-block">Question ' + question_no + '</button></li>');
-}
-
 $('#tour').crumble();
 $(function() {
   $('body').on('click', '.add-question', function(e) {
@@ -13,7 +8,6 @@ $(function() {
   }).on('click', '.delete', function(e) {
     e.preventDefault();
     $(this).parent().remove();
-    $('.mini-questions').find('li:last-child').remove();
   }).on('click', '.question-type-1', function(e) {
     e.preventDefault();
     $('#question-picker').modal('hide');
@@ -34,7 +28,6 @@ $(function() {
     e.preventDefault();
     $('#question-type-1').modal('hide');
     $('.questions').append($('#question-1-sample').html());
-    add_question_to_mini_list();
   }).on('click', '.add-question-2', function(e) {
     e.preventDefault();
     $('#question-type-2').modal('hide');
@@ -50,5 +43,17 @@ $(function() {
     $('#question-type-4').modal('hide');
     $('.questions').append($('#question-4-sample').html());
     add_question_to_mini_list();
+  }).on('change', '.fillable-type', function(e) {
+    $('.rules').hide();
+    $('.' + this.value).show();
+  }).on('click', '.add-another', function(e) {
+    e.preventDefault();
+    var copy = $(this).prev().find('.question-select-option:last-child').clone();
+    copy.find('input').val('');
+    copy.find('.x').removeClass('hidden');
+    $(this).prev().append(copy);
+  }).on('click', '.x', function(e) {
+    e.preventDefault();
+    $(this).closest('.question-select-option').remove();    
   });
 })

@@ -1,6 +1,6 @@
 <?php require $_SERVER['DOCUMENT_ROOT']."/includes/header.php"; ?>
 
-<?php $tab = 0 ?>
+<?php $tab = 2 ?>
 <?php require $_SERVER['DOCUMENT_ROOT']."/includes/admin-navbar.php"; ?>
 <div id="app">
   <div class="container">
