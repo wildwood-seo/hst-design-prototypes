@@ -49,7 +49,7 @@
       <li class="bg-light list-group-item d-flex justify-content-between align-items-center"><strong>Checklist Templates</strong></li>
 
       <li class="list-group-item">
-        <i class="fas fa-times"></i>&nbsp;&nbsp;&nbsp; List Templates
+        <i class="fas fa-check"></i>&nbsp;&nbsp;&nbsp; List Templates
         <a href="app/checklist-templates/index.php" class="btn btn-sm btn-primary float-right">Show</a>
       </li>
       <li class="list-group-item">
@@ -122,7 +122,7 @@
       <li class="bg-light list-group-item d-flex justify-content-between align-items-center"><strong>Checklists</strong></li>
 
       <li class="list-group-item">
-        <i class="fas fa-times"></i>&nbsp;&nbsp;&nbsp; List Checklists
+        <i class="fas fa-check"></i>&nbsp;&nbsp;&nbsp; List Checklists
         <a href="app/checklists/index.php" class="btn btn-sm btn-primary float-right">Show</a>
       </li>
       <li class="list-group-item">
